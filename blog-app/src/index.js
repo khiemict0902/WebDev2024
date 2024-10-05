@@ -6,7 +6,7 @@ import AboutUs from "./pages/AboutUs";
 import Blogs from "./pages/Blogs";
 import Categories from "./pages/Categories";
 import Write from "./pages/Write";
-import NavBar from "./pages/NavBar"
+import NavBar from "./components/NavBar"
 import Post from "./components/Post"
 
 export default function App() {

@@ -147,7 +147,7 @@
     color: green;
     font-size: 20px;
 }
-a:link {
+.block2 a:link {
     color: green !important;
     text-decoration: none;
 }
