@@ -1,0 +1,73 @@
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+p1{
+    color: white;
+    text-size-adjust: 1.5px;
+}
+body{
+    display: flex;
+    
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button{
+    background-color: whitesmoke;
+    padding: 10px 20px; 
+    font-size: 1rem;
+    cursor: pointer;  
+
+}
+div{
+    background-color: black;
+}
+
+.container{
+    width: auto;
+    height: 255px;
+    margin-block: 10px; 
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container div {
+    border-radius: 10px;
+    border-style: 10px;
+    background-color:whitesmoke;
+    width: 32.5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box div{
+    text-align: center;
+}
+.box h2{
+    text-align: center
+}
+.box img{
+    margin-bottom: 10px;
+    align-content: center;
+}
+.box p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
