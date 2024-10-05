@@ -28,7 +28,7 @@ div{
     background-color: black;
 }
 
-.container{
+.block{
     width: auto;
     height: 255px;
     margin-block: 10px; 
@@ -39,7 +39,7 @@ div{
     padding-left: 10px;
     padding-right: 10px;
 }
-.container div {
+.block div {
     border-radius: 10px;
     border-style: 10px;
     background-color:whitesmoke;
@@ -56,6 +56,8 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    position: absolute;
 }
 .box div{
     text-align: center;
@@ -66,8 +68,41 @@ div{
 .box img{
     margin-bottom: 10px;
     align-content: center;
+    width: 20%;
+    height:auto;
+    padding-top: 10px;
+
 }
 .box p{
+    color: whitesmoke;
+    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.box{
+    position: relative;
+    width: 50%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+ 
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.box:hover .overlay{
+    height: 100%;
 }
