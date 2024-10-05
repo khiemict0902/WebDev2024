@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+ 
+}
+
+main {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.category_container {
+    margin-top: 20px;
+}
+
+.section_title {    
+    border-bottom: 1px rgba(0, 0, 0, 0.4) solid;
+}   
+
+.post_block-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+
+}
