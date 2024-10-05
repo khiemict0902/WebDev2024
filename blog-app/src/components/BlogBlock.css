@@ -1,12 +1,17 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0;  
   }
   
 .post_block {
-  width: 25%;
-  height: auto;
+  width: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.post_block-item {
   border: 1px #ccc solid;
   border-radius: 4px;
 }
