@@ -32,7 +32,7 @@ function AboutUs(){
                     <img className='box icon' src={association} alt="Association" />
                     <h2 className='box highlight'> Huge Association</h2>
                     <div className='text'>
-                    <   p className='overlay'>With the participation of many users from countries around the world, different topics. Users can easily connect, search for useful information, and much more.</p>
+                        <p className='overlay'>With the participation of many users from countries around the world, different topics. Users can easily connect, search for useful information, and much more.</p>
                     </div>
                 </div>
 
