@@ -1,0 +1,37 @@
+.usth {
+    width: 100px; /* Điều chỉnh kích thước logo USTH */
+    height: auto;
+    margin: 20px;
+}
+
+.home {
+    width: 24px; /* Điều chỉnh kích thước icon home */
+    height: 24px;
+}
+
+
+.address{
+    display: flex;
+    align-items: center;
+}
+
+
+.phone_name{
+    display: flex;
+    align-items: center;
+}
+
+.phone_call{
+    width: 24px;
+    height: 24px;
+}
+
+.email_1{
+    width: 24px;
+    height: 24px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+}
