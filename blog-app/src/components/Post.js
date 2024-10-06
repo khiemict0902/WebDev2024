@@ -12,9 +12,9 @@ function Post( ) {
     
     useEffect(() => {
         const fetchPosts = async () => {
-            const response = await fetch('blog-app/post-data.json');
+            const response = await fetch('/post-data.json');
             const data  = await response.json();
-            setPosts(data);
+            setPosts(data.post);
         }
         fetchPosts();
     }, []);
@@ -52,18 +52,18 @@ function Post( ) {
                                                 {/* Author Box */}
                                                 <div className="info">
                                                     <div className="re-img">
-                                                        <img src={post} alt="avatar" className="image"/>
+                                                        <img src={post.author.image} alt="avatar" className="image"/>
                                                     </div>
                                                     <div className="text">
-                                                        <p>Name</p>
-                                                        <div>Gen</div>  
+                                                        <p>{post.author.name}</p>
+                                                        <div>{post.author.gen}</div>  
                                                     </div>
                                                 </div>
                                                 {/* Post Title */}
                                                 <h1 className="text-title">{post.title}</h1>
                                             </div>
                                             {/* Post Feature Image */}
-                                            <img src="https://usth-coders-club.github.io/assets/images/posts/2022-05-06-discord-music-bot-3/banner.jpg" alt="code" className="picture"/>
+                                            <img src={post.featureImage} alt="code" className="picture"/>
                                             {/* End Post Feature Image */}
                                             {/* Post Content */}
                                             <div className="article-post">
@@ -85,7 +85,12 @@ function Post( ) {
                                                     {isVisible && (
                                                         <div id="block2">
                                                             <ul>
-                                                                <li className="topc">
+                                                                {post.summary.map((item,index) => (
+                                                                    <li key={index} className="topc">
+                                                                    <a href="#">{item}</a>
+                                                                </li>
+                                                                ))}
+                                                                {/* <li className="topc">
                                                                     <a href="#Cấu trúc hoạt động của Bot">Cấu trúc hoạt động của Bot</a>
                                                                 </li>
                                                                 <li className="topc">
@@ -117,19 +122,14 @@ function Post( ) {
                                                                 </li>
                                                                 <li className="topc">
                                                                     <a href="#Tổng kết">Tổng kết</a>
-                                                                </li>
+                                                                </li> */}
                                                             </ul>
                                                         </div>
                                                     )} 
                                                     {/* End list-content */}
                                                 </div>
                                                 {/* End Summary List */}
-                                                <p>
-                                                Ở Phần 2, UCC đã cùng các bạn đăng ký tài khoản Bot với Discord
-                                                và đăng nhập vào nó bằng Javascript. Trong bài viết này, mình sẽ
-                                                hướng dẫn các bạn lập trình đầy đủ các tính năng để con Bot của
-                                                chúng ta chạy được nhạc nhé!
-                                                </p>
+                                                <p>{post.content}</p>
                         
                                                 <h2 id="Cấu trúc hoạt động của Bot">Cấu trúc hoạt động của Bot</h2>
                                                 <p>Con Bot của chúng ta sẽ có những lệnh cơ bản của một Bot chơi nhạc:</p>
@@ -152,7 +152,7 @@ function Post( ) {
                                             </div>
                         
                                             <p>
-                                                <small>5 October 2024</small>
+                                                <small>{post.date}</small>
                                             </p>
                                         </div>
                                         {/* End Post */}
