@@ -31,7 +31,7 @@ function Write() {
 
     return (
         <div className="write-container">
-            <h1>Write a New Blog Post</h1>
+            <h1 class="Write-New-Blog">Write a New Blog Post</h1>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="title">Title</label>
