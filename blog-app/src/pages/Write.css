@@ -1,6 +1,6 @@
 .write-container {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 100px auto;
     padding: 20px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -44,7 +44,7 @@ textarea {
 
 .publish-button {
     display: inline-block;
-    background-color: #df6ec9; 
+    background-color: rgb(255, 192, 203); 
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -55,7 +55,7 @@ textarea {
 }
 
 .publish-button:hover {
-    background-color: #ae067c; 
+    background-color: rgb(241, 155, 169); 
 }
 
 .image-preview {

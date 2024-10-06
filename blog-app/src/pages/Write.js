@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Write.css';
+import NavBar from './NavBar';
 
 function Write() {
     const [title, setTitle] = useState('');
@@ -30,6 +31,8 @@ function Write() {
     };
 
     return (
+        <>
+        <NavBar/>
         <div className="write-container">
             <h1 class="Write-New-Blog">Write a New Blog Post</h1>
             <form onSubmit={handleSubmit}>
@@ -89,7 +92,8 @@ function Write() {
                 <button type="submit" className="publish-button">Publish Blog</button>
             </form>
         </div>
-    );
-}
+        </>
+    )
+}   
 
 export default Write;
