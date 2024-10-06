@@ -1,11 +1,11 @@
 import './Iconplus.css'
+import plus from './image/plus.png'
 
 function Iconplus() {
     return (
         <button className='icon'>
-            <div className='plus'>
-                +
-            </div>
+            
+            <img src={plus} alt='' className='plus'/>
         </button>
     );
 }
