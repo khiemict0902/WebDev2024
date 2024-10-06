@@ -12,7 +12,6 @@ function Write() {
         const file = e.target.files[0];
         setImage(file);
 
-        // Tạo preview cho ảnh
         const reader = new FileReader();
         reader.onloadend = () => {
             setImagePreview(reader.result);
@@ -22,7 +21,6 @@ function Write() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Xử lý khi người dùng nhấn "Submit"
         console.log({
             title,
             category,
@@ -35,7 +33,6 @@ function Write() {
         <div className="write-container">
             <h1>Write a New Blog Post</h1>
             <form onSubmit={handleSubmit}>
-                {/* Nhập tiêu đề */}
                 <div className="form-group">
                     <label htmlFor="title">Title</label>
                     <input
@@ -48,7 +45,6 @@ function Write() {
                     />
                 </div>
 
-                {/* Chọn loại blog */}
                 <div className="form-group">
                     <label htmlFor="category">Category</label>
                     <select
@@ -64,7 +60,6 @@ function Write() {
                     </select>
                 </div>
 
-                {/* Tải ảnh lên */}
                 <div className="form-group">
                     <label htmlFor="image">Upload Image</label>
                     <input type="file" id="image" onChange={handleImageUpload} />
@@ -77,7 +72,7 @@ function Write() {
                     )}
                 </div>
 
-                {/* Nhập nội dung */}
+            
                 <div className="form-group">
                     <label htmlFor="content">Content</label>
                     <textarea
@@ -90,7 +85,7 @@ function Write() {
                     />
                 </div>
 
-                {/* Nút submit */}
+          
                 <button type="submit">Publish Blog</button>
             </form>
         </div>
