@@ -44,7 +44,7 @@ textarea {
 
 .publish-button {
     display: inline-block;
-    background-color: #28a745; 
+    background-color: #df6ec9; 
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -55,7 +55,7 @@ textarea {
 }
 
 .publish-button:hover {
-    background-color: #e53ab2; 
+    background-color: #ae067c; 
 }
 
 .image-preview {
