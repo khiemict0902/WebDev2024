@@ -34,7 +34,7 @@
 .explore {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 30px 30px;
     border-radius: 50px;
 }
 
@@ -46,16 +46,18 @@
     color: whitesmoke;
     width: 15%;
     height: 5vw;    
-
+    font-size: 18px;
 }
 
-.explore_button:hover{
+.explore_button:hover {
     box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    /* background: linear-gradient(
+    background: linear-gradient(
         to left,
         rgb(pink),
         rgb(whitesmoke)
-        ); */
+        );
+       
+        
 
 }
 .block {

@@ -1,6 +1,51 @@
 [
     {
         "id":0,
-        "title": 
+        "title": "Google DeepMind trained a robot to beat humans at table tennis",
+        "description":"Google DeepMind has trained a robot to play the game at the equivalent of amateur-level competitive performance, the company has announced. It claims it’s the first time a robot has been taught to play a sport with humans at a human level.",
+        "thumbnail":"./asset/technology.jpg",
+        "category":"technology"
+    },
+    {
+        "id":1,
+        "title": " Best Hanoi Restaurants and Cafes",
+        "description":"Stepping into the chaotic streets of Hanoi in Vietnam can be scary. Wherever you are, motorbikes and cars whiz by haphazardly. There aren’t many crosswalks and the relative few are more suggestive than heeded.",
+        "thumbnail":"./asset/food.jpg",
+        "category":"food"
+    },
+    {
+        "id": 2,
+        "title": "Healthy Lifestyle: Definition, Benefits, & Examples",
+        "description":"We all want to live healthy, happy lives. Some of us are fortunate to lead healthy lifestyles already, but others might be unaware of their harmful habits or find healthier options difficult or impractical. Those of us who know our lifestyles could benefit from a few changes may resolve to implement healthy habits sometime later, such as the first day of the new year or after completing a demanding project at work. ",
+        "thumbnail":"./asset/lifestyle.jpg",
+        "category": "lifestyle"
+    },
+    {
+        "id": 3,
+        "title":"How to learn a new language: 7 secrets from TED Translators",
+        "description":"They say that children learn languages the best. But that doesn’t mean that adults should give up. We asked some of the polyglots in TED’s Open Translation Project to share their secrets to mastering a foreign language. Their best strategies distill into seven basic principles:",
+        "thumbnail":"./asset/Education.jpg",
+        "category": "education"
+    },
+    {
+        "id":4,
+        "title":"My 50 Best Travel Tips After 10 Years Traveling The World",
+        "description":"My 50 Best Travel Tips After 10 Years Traveling The World",
+        "thumbnail":"./asset/travel.jpg",
+        "category":"travel"
+    },
+    {
+        "id": 5,
+        "title": "Love Quotes to Warm Your Heart",
+        "description":"Love is one of the most intense and emotional experiences that human beings have. These love quotes show how fulfilling it is to love and be loved.",
+        "thumbnail":"./asset/love.jpg",
+        "category": "love"
+    },
+    {
+        "id": 6,
+        "title":"Simple Macaroni and Cheese",
+        "description":"Quick, easy, and tasty macaroni and cheese dish. Fancy, designer mac and cheese often costs forty or fifty dollars to prepare when you have so many expensive cheeses, but they aren't always the best tasting. This simple recipe is cheap and tasty.",
+        "thumbnail":"./asset/Recipie.jpg",
+        "category": "Cooking"
     }
 ]
