@@ -1,0 +1,17 @@
+{
+    "post": [
+      {
+        "id": 1,
+        "title": "Lập trình Bot Music Discord - Phần 3",
+        "author": {
+          "name": "John Doe",
+          "gen": "Gen Z",
+          "image": "https://demoda.vn/wp-content/uploads/2022/03/anh-cute-meo-le-luoi.jpg"
+        },
+        "featureImage": "https://example.com/feature-image.jpg",
+        "date": "5 October 2024",
+        "summary": ["Cấu trúc Bot", "handlers.js", "play.js", "pause.js"],
+        "content": "Bài viết về lập trình Bot Discord phần 3..."
+      }
+    ]
+  }
