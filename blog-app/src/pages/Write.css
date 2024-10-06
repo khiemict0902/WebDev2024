@@ -42,9 +42,9 @@ textarea {
     resize: vertical;
 }
 
-button {
+.publish-button {
     display: inline-block;
-    background-color: #28a745; /* Màu xanh lá cây */
+    background-color: #28a745; 
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -54,8 +54,8 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #218838; /* Màu xanh lá cây đậm hơn khi hover */
+.publish-button:hover {
+    background-color: #e53ab2; 
 }
 
 .image-preview {
