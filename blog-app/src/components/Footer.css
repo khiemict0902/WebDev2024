@@ -1,37 +1,34 @@
+.backgound{
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.group {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 600px;
+    margin-bottom: 5%;
+}
+
 .usth {
-    width: 100px; /* Điều chỉnh kích thước logo USTH */
+    width: 400px; /* Điều chỉnh kích thước logo USTH */
     height: auto;
     margin: 20px;
 }
 
-.home {
-    width: 24px; /* Điều chỉnh kích thước icon home */
-    height: 24px;
-}
-
-
-.address{
-    display: flex;
-    align-items: center;
-}
-
-
-.phone_name{
-    display: flex;
-    align-items: center;
-}
-
-.phone_call{
-    width: 24px;
-    height: 24px;
-}
-
-.email_1{
-    width: 24px;
-    height: 24px;
-}
-
-.email{
-    display: flex;
-    align-items: center;
+.team{
+    color: white;
 }
