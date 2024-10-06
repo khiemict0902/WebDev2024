@@ -116,12 +116,12 @@
     list-style: outside none none;
     line-height: 1.7;
 }
-a {
+#block2 a {
     color:#00ab6b;
     text-decoration: none;
     transition: all 0.2s;
 }
-button {
+.block1 button {
     background-color: transparent;  /* Remove background */
     border: none; /* Remove border */
     cursor: pointer; /* Change mouse pointer to hand shape when hovering over */
@@ -129,7 +129,7 @@ button {
     font-size: 20px;
     padding-left: 15px;
 }
-h2, h1 {
+.list-post h2, h1 {
     font-size: 2rem;
     font-weight: 700px;
     margin-top: 20px;
