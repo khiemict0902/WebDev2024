@@ -2,10 +2,13 @@ import './AboutUs.css';
 import userinterface from './assets/userinterface.png';
 import association from './assets/association.png';
 import friendship from './assets/friendship.png'
+import NavBar from './NavBar';
 
 
 function AboutUs(){
     return(
+        <>
+        <NavBar/>
         <div className='ABoutUS'>
             <div className="aboutus_container">
                 <div className='introduction'>
@@ -32,8 +35,8 @@ function AboutUs(){
 
                 <div className='block'>
                     <div className='box'>
-                        <div className="box_icon">
-                            <img className='icon' src={userinterface} alt="User Interface" />
+                        <div className="box_img">
+                            <img className='img' src={userinterface} alt="User Interface" />
 
                         </div>
                         <div className="box_highlight">
@@ -45,8 +48,8 @@ function AboutUs(){
                     </div>
 
                     <div className='box'>
-                        <div className="box_icon">
-                            <img className='icon' src={association} alt="Association" />
+                        <div className="box_img">
+                            <img className='img' src={association} alt="Association" />
 
                         </div>
                         <div className="box_highlight">
@@ -58,8 +61,8 @@ function AboutUs(){
                     </div>
 
                     <div className='box'>
-                        <div className="box_icon">
-                            <img className='icon' src={friendship} alt="Friend Ship" />
+                        <div className="box_img">
+                            <img className='img' src={friendship} alt="Friend Ship" />
                         </div>
                         <div className="box_highlight">
                             <h2 className='hightlight'>Open - Community</h2>
@@ -73,7 +76,7 @@ function AboutUs(){
             </div>
 
         </div>
-        
+        </>
     )
 }
 
