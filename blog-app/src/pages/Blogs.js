@@ -1,12 +1,17 @@
 import './Blogs.css';
 import Iconplus from '../components/Iconplus';
 import BlogBlock from '../components/BlogBlock';
+import NavBar from './NavBar';
 
 function Blogs(){
     return(
         <div>
+
             <div>
-                Blog
+                <NavBar></NavBar>
+            </div>
+            <div>
+                
                 <Iconplus />
             </div>
             
