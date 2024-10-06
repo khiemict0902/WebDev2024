@@ -86,7 +86,7 @@ function Write() {
                 </div>
 
           
-                <button type="submit">Publish Blog</button>
+                <button type="submit" className="publish-button">Publish Blog</button>
             </form>
         </div>
     );
