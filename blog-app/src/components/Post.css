@@ -1,0 +1,137 @@
+.layout-post {
+    width: auto;
+}
+.site-content {
+    min-width: 60vh;
+    padding-top: 24px;
+    margin-top: 57px;
+    transition: all 0.4s;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 850px;
+    }
+    .post {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .share {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.share {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main-title {
+    padding: 1rem 0rem;
+    line-height: 3rem;
+}
+.lead {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.main-content {
+    min-height: 300px;
+}
+.post {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mainheading {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.info {
+    display: flex;
+    width: 100%;
+    margin-bottom: 32px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.re-img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.image {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.text {
+    font-size: 1rem;
+    width: 100%;
+    margin-left: 15px;
+    line-height: 30px;
+}
+.text-title {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.picture {
+    max-width: 100%;
+}
+.article-post {
+    width: 100%;
+    height: 100%;
+}
+.list-post {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.block1 {
+    display: flex;
+    margin-bottom: 15px;
+}
+#block2 {
+    display: table;
+    border: 1px solid #aaa;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 95%;
+    background: #f9f9f9;
+}
+.topc {
+    font-size: 1.5rem;
+    font-weight: 700;
+    list-style: outside none none;
+    line-height: 1.7;
+}
+a {
+    color:#00ab6b;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+button {
+    background-color: transparent;  /* Remove background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change mouse pointer to hand shape when hovering over */
+    color: #00ab6b;
+    font-size: 20px;
+    padding-left: 15px;
+}
+h2, h1 {
+    font-size: 2rem;
+    font-weight: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
