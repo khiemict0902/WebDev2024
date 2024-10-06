@@ -40,8 +40,9 @@
 
 .explore_button {
     padding: 8px;
-    background-color:black;
+    background-color: pink;
     border-radius: 10px;
+    border: none;
     text-decoration-color: aliceblue;
     color: whitesmoke;
     width: 15%;
@@ -53,13 +54,18 @@
     box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background: linear-gradient(
         to left,
-        rgb(pink),
-        rgb(whitesmoke)
-        );
-       
-        
-
+        rgb(255, 192, 203),
+        rgb(238, 225, 225));
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
 }
+
+
+
 .block {
     height: 50%;
     display: flex;
