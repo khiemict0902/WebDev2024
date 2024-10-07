@@ -27,9 +27,10 @@ function AboutUs(){
                     </div>
 
                     <div className="explore">
-                        <button className='explore_button' onClick='clickHandler()'>
+                        <a className='explore_button' href='/blogs'>
                             Explore!    
-                        </button>
+                        </a>
+
                     </div>
                 </div>
 
