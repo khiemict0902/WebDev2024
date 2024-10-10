@@ -27,10 +27,11 @@ function AboutUs(){
                     </div>
 
                     <div className="explore">
-                        <a className='explore_button' href='/blogs'>
-                            Explore!    
-                        </a>
-
+                        <div className="explore_button">
+                            <a href='/blogs'>
+                                Explore!    
+                            </a>
+                        </div>
                     </div>
                 </div>
 

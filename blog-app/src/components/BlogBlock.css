@@ -13,12 +13,13 @@
 
 .post_block-item {
   border: 1px #ccc solid;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 
 .post_block-image {
   width: 100%;
   height: auto;
+  border-radius: 20px;
 }
   
 .post_block-content {
