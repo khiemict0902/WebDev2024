@@ -34,26 +34,25 @@
 .explore {
     display: flex;
     justify-content: center;
-    top: 50%;
-    left: 50%;
     margin: 30px 30px;
-    border-radius: 50px;
-    align-items: center;
 }
 
 .explore_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px 0;
     background-color: pink;
-    border-radius: 10px;
-    border: none;
-    text-decoration-color: aliceblue;
-    color: whitesmoke;
+    border-radius: 20px;
     width: 15%;
     height: 5vw;    
-    font-size: 20px;
-    text-align: center;
-    top: 50%;
-    left: 50%;
+    
+}
+
+.explore_button a {
+    text-decoration-color: aliceblue;
+    color: whitesmoke;
+    font-size: 25px;
 }
 
 .explore_button:hover {
@@ -64,7 +63,6 @@
         rgb(238, 225, 225));
         opacity: 0.6;
         transition: 0.3s;
-        display: inline-block;
         text-decoration: none;
         border: none;
         cursor: pointer;

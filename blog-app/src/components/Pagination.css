@@ -1,0 +1,33 @@
+.pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.4) ;
+    margin: 20px 0;
+}
+
+.pagination::before {
+    content: "";
+    border-width: 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent rgba(255, 128, 192, 1) transparent;
+    position: absolute;
+    top: -20px;
+}
+
+.pagination a {
+    color: rgba(255, 128, 192, 1);
+    font-size: 18px;
+    padding: 16px;
+    text-decoration: none;
+    margin: 0 6px;
+}
+
+.pagination a.active {
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+.pagination a:hover:not(.active) {
+    opacity: 0.5;
+}

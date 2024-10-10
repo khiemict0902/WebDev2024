@@ -42,7 +42,7 @@
     margin: 0 16px;
     padding: 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .ul{
@@ -54,6 +54,7 @@
 
 .link{
     flex: 1;
+    text-decoration: none;
 }
 
 
@@ -107,21 +108,3 @@
     color: #000;
 }
 
-.blog_title {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 100px;
-}
-
-.blog_title_container {
-    width: 80%;
-}
-
-.blog_name {
-    font-size: 50px;
-}
-
-.blog_description {
-    font-size: 30px;
-}

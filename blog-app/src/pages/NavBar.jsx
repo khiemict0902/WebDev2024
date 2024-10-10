@@ -41,17 +41,6 @@ function NavBar() {
           {/* <Outlet/> */}
 
       </div>
-
-        <div className="blog_title">
-          <div className="blog_title_container">
-            <h1 className="blog_name">
-              Blog name
-            </h1>
-            <p className="blog_description">
-              Blog description
-            </p>
-          </div>
-        </div>
     </>
 
   )
