@@ -1,12 +1,11 @@
 
-
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
-import AboutUs from "./pages/AboutUs";
-import Blogs from "./pages/Blogs";
-import Categories from "./pages/Categories";
-import Write from "./pages/Write";
-import Post from "./components/Post"
+import AboutUs from "./intro/AboutUs";
+import Blogs from "./admin/Blogs";
+import Categories from "./admin/Categories";
+import Write from "./admin/Write";
+import Post from "./admin/Post"
 import Footer from "./components/Footer";
 
 export default function App() {

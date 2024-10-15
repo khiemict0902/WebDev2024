@@ -10,13 +10,13 @@
     content: "";
     border-width: 10px 10px;
     border-style: solid;
-    border-color: transparent transparent rgba(255, 128, 192, 1) transparent;
+    border-color: transparent transparent #000 transparent;
     position: absolute;
     top: -20px;
 }
 
 .pagination a {
-    color: rgba(255, 128, 192, 1);
+    color: #000;
     font-size: 18px;
     padding: 16px;
     text-decoration: none;

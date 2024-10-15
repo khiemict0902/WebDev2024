@@ -1,9 +1,8 @@
 import './AboutUs.css';
-import userinterface from './assets/userinterface.png';
-import association from './assets/association.png';
-import friendship from './assets/friendship.png'
-import NavBar from './NavBar';
-
+import userinterface from '../assets/userinterface.png';
+import association from '../assets/association.png';
+import friendship from '../assets/friendship.png'
+import NavBar from '../components/NavBar';
 
 function AboutUs(){
     return(

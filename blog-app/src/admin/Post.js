@@ -1,6 +1,7 @@
 import './Post.css';
 import React, { useState, useEffect } from 'react'; // Import useState
-import NavBar from '../pages/NavBar';
+import NavBar from '../components/NavBar';
+
 
 function Post() {
     // Declare state to control Hide/Show

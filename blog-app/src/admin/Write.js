@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Write.css';
-import NavBar from './NavBar';
+import NavBar from '../components/NavBar';
+
 
 function Write() {
     const [title, setTitle] = useState('');
@@ -32,7 +33,7 @@ function Write() {
 
     return (
         <>
-        <NavBar/>
+        <NavBar data = {true}/>
         <div className="write-container">
             <h1 class="Write-New-Blog">Write a New Blog Post</h1>
             <form onSubmit={handleSubmit}>
