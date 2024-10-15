@@ -1,6 +1,7 @@
-import postImage from './assets/postImage.jpg'
-import user_ava from './assets/user_ava.png'
+import postImage from '../assets/postImage.jpg'
+import user_ava from '../assets/user_ava.png'
 import './BlogBlock.css';
+import { Link } from 'react-router-dom';
 
 function BlogBlock(){
     return(
@@ -8,16 +9,16 @@ function BlogBlock(){
       <div className="post_block">
         <div className='post_block-item'>
           
-          <a  className='post_block-link' href="./Post" target="_blank">
+          <Link className='post_block-link' to="/Post" target="_blank">
             <img src={postImage} className="post_block-image" alt="post_image" />
-          </a>
+          </Link>
 
           <div className="post_block-content">
 
             <h2 className='post_block-content_title'>
-              <a  className='post_block-link' href="./Post" target="_blank">
+              <Link className='post_block-link' to="/Post" target="_blank">
                 [CODE MUSIC BOT FOR DISCORD] - Phần 3: Lập trình các tính năng
-              </a>
+              </Link>
             </h2>
 
             <p className='post_block-content_description'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ad nihil a, 

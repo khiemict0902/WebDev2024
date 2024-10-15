@@ -1,13 +1,9 @@
 import './Categories.css';
 import BlogBlock from '../components/BlogBlock';
-import NavBar from './NavBar';
+import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Pagination from '../components/Pagination';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
-
-
 
 function Categories(){
     return(

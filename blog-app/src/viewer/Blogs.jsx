@@ -1,7 +1,6 @@
 import './Blogs.css';
-import Iconplus from '../components/Iconplus';
 import BlogBlock from '../components/BlogBlock';
-import NavBar from './NavBar';
+import NavBar from '../components/NavBar';
 import Pagination from '../components/Pagination'
 import Footer from '../components/Footer';
 
@@ -12,11 +11,7 @@ function Blogs(){
             <header>
                 <NavBar></NavBar>
             </header>
-            <div > 
-                <Iconplus/>
-            </div>
             
-
             <div className='blog_container'>
                 <div className="blog_content">
                     <h2 className='title_blogs'>Featured</h2>
