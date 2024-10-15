@@ -5,43 +5,43 @@ import './BlogBlock.css';
 function BlogBlock(){
     return(
       <>
-      <div className="post_block">
-        <div className='post_block-item'>
-          
-          <a  className='post_block-link' href="./Post" target="_blank">
-            <img src={postImage} className="post_block-image" alt="post_image" />
-          </a>
+        <div className="post_block">
+          <div className='post_block-item'>
+            
+            <a  className='post_block-link' href="./Post" target="_blank">
+              <img src={postImage} className="post_block-image" alt="post_image" />
+            </a>
 
-          <div className="post_block-content">
+            <div className="post_block-content">
 
-            <h2 className='post_block-content_title'>
-              <a  className='post_block-link' href="./Post" target="_blank">
-                [CODE MUSIC BOT FOR DISCORD] - Phần 3: Lập trình các tính năng
-              </a>
-            </h2>
+              <h2 className='post_block-content_title'>
+                <a  className='post_block-link' href="./Post" target="_blank">
+                  [CODE MUSIC BOT FOR DISCORD] - Phần 3: Lập trình các tính năng
+                </a>
+              </h2>
 
-            <p className='post_block-content_description'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ad nihil a, 
-              harum adipisci blanditiis aliquam aut in neque unde ipsa tempore! Itaque earum, optio voluptate exercitationem tenetur laborum sunt.
-              aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+              <p className='post_block-content_description'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ad nihil a, 
+                harum adipisci blanditiis aliquam aut in neque unde ipsa tempore! Itaque earum, optio voluptate exercitationem tenetur laborum sunt.
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
 
-          </div>
+            </div>
 
-          <div className='post_block-footer'>
+            <div className='post_block-footer'>
 
-            <img src={user_ava} alt="user_ava" className="post_block-author_ava" />
-            <div className='post_block-info'>
+              <img src={user_ava} alt="user_ava" className="post_block-author_ava" />
+              <div className='post_block-info'>
 
-              <span className='post_block-author_name'>Đỗ Nhật Thành</span>
-              <br />
-              <span className='post_block-date'>06 May 2022</span>
+                <span className='post_block-author_name'>Đỗ Nhật Thành</span>
+                <br />
+                <span className='post_block-date'>06 May 2022</span>
+
+              </div>
 
             </div>
 
           </div>
 
         </div>
-
-      </div>
       </>
     )
 }
