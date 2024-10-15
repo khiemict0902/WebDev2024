@@ -33,7 +33,7 @@ function Write() {
 
     return (
         <>
-        <NavBar/>
+        <NavBar data = {true}/>
         <div className="write-container">
             <h1 class="Write-New-Blog">Write a New Blog Post</h1>
             <form onSubmit={handleSubmit}>

@@ -9,15 +9,13 @@ function Categories(){
     return(
         <>
             <header>
-                <NavBar />
+                <NavBar data = {true}/>
             </header>
             <main className='category_content'>
                 <div className="category_content_container">
                     <h2 className='category_title' >Type I</h2>
                     <div className='category_blogblock_container'>
                         <div className="blogblock_container">
-                            <BlogBlock/>
-                            <BlogBlock/>
                             <BlogBlock/>
                             <BlogBlock/>
                             <BlogBlock/>
