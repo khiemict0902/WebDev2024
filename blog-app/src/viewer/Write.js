@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Write.css';
-import NavBar from './NavBar';
+import NavBar from '../components/NavBar';
+
 
 function Write() {
     const [title, setTitle] = useState('');

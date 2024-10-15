@@ -1,13 +1,14 @@
 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
-import AboutUs from "./pages/AboutUs";
-import Blogs from "./pages/Blogs";
-import Categories from "./pages/Categories";
-import Write from "./pages/Write";
-import Post from "./components/Post"
+import AboutUs from "./intro/AboutUs";
+import Blogs from "./viewer/Blogs";
+import Categories from "./viewer/Categories";
+import Write from "./viewer/Write";
+import Post from "./viewer/Post"
 import Footer from "./components/Footer";
+import NavBar from './components/NavBar';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="categories" element={<Categories />} />
           <Route path="write" element={<Write />} />
           <Route path="footer" element={<Footer />} />
+          <Route path="navbar" element={<NavBar />} />
         </Route>
       </Routes>
     </BrowserRouter>
