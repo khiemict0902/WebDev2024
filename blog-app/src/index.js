@@ -1,14 +1,12 @@
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import AboutUs from "./intro/AboutUs";
-import Blogs from "./viewer/Blogs";
-import Categories from "./viewer/Categories";
-import Write from "./viewer/Write";
-import Post from "./viewer/Post"
+import Blogs from "./admin/Blogs";
+import Categories from "./admin/Categories";
+import Write from "./admin/Write";
+import Post from "./admin/Post"
 import Footer from "./components/Footer";
-import NavBar from './components/NavBar';
 
 export default function App() {
   return (
@@ -22,7 +20,6 @@ export default function App() {
           <Route path="categories" element={<Categories />} />
           <Route path="write" element={<Write />} />
           <Route path="footer" element={<Footer />} />
-          <Route path="navbar" element={<NavBar />} />
         </Route>
       </Routes>
     </BrowserRouter>
