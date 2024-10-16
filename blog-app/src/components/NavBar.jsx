@@ -6,6 +6,8 @@ import {faUser} from '@fortawesome/free-solid-svg-icons'
 import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
 import {faPlus} from '@fortawesome/free-solid-svg-icons'
 
+
+
 function NavBar(isAdmin) {
   return (
     <>
@@ -13,7 +15,7 @@ function NavBar(isAdmin) {
 
           <div className="logo">
               <div className="logo_image">
-
+              
               </div>
           </div>
 
