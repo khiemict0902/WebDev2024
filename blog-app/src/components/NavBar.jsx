@@ -5,7 +5,7 @@ import {faChevronDown} from '@fortawesome/free-solid-svg-icons'
 import {faUser} from '@fortawesome/free-solid-svg-icons'
 import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
 import {faPlus} from '@fortawesome/free-solid-svg-icons'
-
+import logo from '../assets/Logo.png'
 
 
 function NavBar(isAdmin) {
@@ -15,7 +15,7 @@ function NavBar(isAdmin) {
 
           <div className="logo">
               <div className="logo_image">
-              
+                  <img src={logo} alt="1" />
               </div>
           </div>
 
