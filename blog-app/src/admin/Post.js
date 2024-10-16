@@ -18,7 +18,7 @@ function Post() {
         // Get data from JSON file
         const fetchPosts = async () => {
             const response = await fetch('/post-data.json');
-            const data  = await response.json();
+            const data = await response.json();
             setPosts(data.post);
         }
         fetchPosts();
