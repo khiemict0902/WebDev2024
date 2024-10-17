@@ -8,6 +8,8 @@ import Write from "./admin/Write";
 import Post from "./admin/Post"
 import Footer from "./components/Footer";
 import LogIn from "./admin/LogIn";
+import NavBar from "./components/NavBar";
+import Notification from './admin/Notification'
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
           <Route path="write" element={<Write />} />
           <Route path="footer" element={<Footer />} />
           <Route path="login" element={<LogIn />} />
+          <Route path="navbar" element={<NavBar />} />
+          <Route path="notification" element={<Notification />} />
         </Route>
       </Routes>
     </BrowserRouter>
