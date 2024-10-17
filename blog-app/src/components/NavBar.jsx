@@ -31,15 +31,33 @@ function NavBar(isAdmin) {
             <ul className="nav_list">
 
               <li className="nav_item"><Link to = "/blogs">HOME</Link></li>
-              <li className="nav_item">
-                  CATEGORY 
-                  <FontAwesomeIcon className = "category_menu_icon" icon={faChevronDown} />
-                </li>
+              <li className="nav_item category">
+                CATEGORY 
+                <FontAwesomeIcon className = "category_menu_icon" icon={faChevronDown} />
+
+                <div className="category_list_container">
+                  <ul className="category_list">  
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                    <li className="category_item"><a href="./Categories" className="category_link">Type I</a></li>
+                  </ul>
+                
+                </div>
+              </li>
 
               {isAdmin.data && 
                 <>
 
-                  <li className="nav_item create_post_button">
+                  <li className="create_post_button">
                     <Link to = "/write">
                     <FontAwesomeIcon className='create_post_icon' icon={faPlus} />
                       NEW POST
