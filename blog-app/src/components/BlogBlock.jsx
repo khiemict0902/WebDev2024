@@ -2,43 +2,32 @@ import postImage from '../assets/postImage.jpg'
 import user_ava from '../assets/user_ava.png'
 import './BlogBlock.css';
 import { Link } from 'react-router-dom';
+import post_image from '../assets/post_image.jpg'
 
 function BlogBlock(){
     return(
       <>
       <div className="post_card">
         <div className='post-item'>
-          
-          <a  className='post-link' href="./Post" target="_blank">
-            <img src={postImage} className="post-image" alt="post_image" />
-          </a>
-
-          <div className="post-content">
-
-            <h2 className='post-content_title'>
-              <a  className='post-link' href="./Post" target="_blank">
-                [CODE MUSIC BOT FOR DISCORD] - Phần 3: Lập trình các tính năng
-              </a>
-            </h2>
-
+          <div className="post_image_container">
+            <Link  className='post-link' href="./Post" target="_blank">
+              <img src={post_image } alt="" className="post_card_image" />
+            </Link>
           </div>
 
-          <div className='post-footer'>
+          <div className="post_cart_text">
+            <h1 className='post_card_title'>
+              <Link  className='post-link' href="./Post" target="_blank">
+                3 Benefits of Minimalism In Interior Design.
+              </Link>
+            </h1>
 
-            <img src={user_ava} alt="user_ava" className="post-author_ava" />
-            <div className='post-info'>
-
-              <span className='post-author_name'>Đỗ Nhật Thành</span>
-              <br />
-              <span className='post-date'>06 May 2022</span>
-
-              </div>
-
-            </div>
-
+            <p className="post_card-date">June 12, 2017</p>
           </div>
 
         </div>
+
+      </div>
       </>
     )
 }
