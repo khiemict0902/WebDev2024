@@ -120,14 +120,7 @@ function NavBar(isLogin) {
                     </span>
                   </Link>
                 </li>
-                <li className="user_menu_item">
-                  <Link to ="/aboutus" className="profile_link link">    
-                    <FontAwesomeIcon className='link_icon' icon={faArrowRightFromBracket} />
-                    <span className="link_text">
-                      Logout
-                    </span>
-                  </Link>
-                </li>
+                
               </ul>
             </div>
           )}    

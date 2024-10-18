@@ -145,40 +145,6 @@
     margin-right: 16px;
 }
 
-/* Sign out part */
-
-.header_signout {
-    height: 75px;   
-    padding: 0 24px;
-    display: flex;
-    align-items: center;
-    background-color: #000;
-}
-
-.navigation_intro {
- 
-}
-
-.navigation_intro-list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.navigation_intro-item {
-    padding: 32px;
-}
-
-.navigation_intro-link {
-    font-size: 20px;
-    font-weight: 700;
-    color: #fff;
-}
-
-.navigation_intro-link:hover {
-    opacity: 0.5;
-}
-
 /* Responsive */
 @media (min-width: 551px) {
     .search_bar_left {

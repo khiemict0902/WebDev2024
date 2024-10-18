@@ -6,25 +6,7 @@ import Aboutus from '../assets/aboutus.png'
 function AboutUs() {
     return (
         <div>
-            <header>
-                <a href="#" className="logo">
-                    <img src="" alt="logo" />
-                </a>
-                <ul className="navbar">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#login">Log In</a>
-                    </li>
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                </ul>
-            </header>
+    
 
             <div className="box">
                 <section className="home" id="home">
