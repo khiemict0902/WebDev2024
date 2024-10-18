@@ -10,14 +10,14 @@ function BlogBlock(){
       <div className="post_card">
         <div className='post-item'>
           <div className="post_image_container">
-            <Link  className='post-link' href="./Post" target="_blank">
+            <Link to='/post'  className='post-link' href="./Post" target="_blank">
               <img src={post_image } alt="" className="post_card_image" />
             </Link>
           </div>
 
           <div className="post_cart_text">
             <h1 className='post_card_title'>
-              <Link  className='post-link' href="./Post" target="_blank">
+              <Link to='/post'  className='post-link' href="./Post" target="_blank">
                 3 Benefits of Minimalism In Interior Design.
               </Link>
             </h1>

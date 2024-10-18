@@ -7,6 +7,7 @@ import Categories from "./admin/Categories";
 import Write from "./admin/Write";
 import Post from "./admin/Post"
 import Post1 from "./admin/Post1"
+import Post2 from "./admin/Post2";
 import Post3 from "./admin/Post3"
 import Footer from "./components/Footer";
 import LogIn from "./intro/login";
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="blogs" element={<Blogs />} />
           <Route path="post" element={<Post />} />
           <Route path="post1" element={<Post1 />} />
+          <Route path="post2" element={<Post2 />} />
           <Route path="post3" element={<Post3 />} />
           <Route path="categories" element={<Categories />} />
           <Route path="write" element={<Write />} />

@@ -51,6 +51,11 @@
     background-color: #333;
 }
 
+.signup-form a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .signup-container::before {
     content: '';
     position: absolute;

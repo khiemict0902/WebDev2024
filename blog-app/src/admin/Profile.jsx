@@ -76,6 +76,8 @@ function Profile(isAdmin) {
                             <PostHomeCard/>
                             <PostHomeCard/>
                             <PostHomeCard/>
+                            <PostHomeCard/>
+                            <PostHomeCard/>
                         </div>
                     </div>
                 </div>
