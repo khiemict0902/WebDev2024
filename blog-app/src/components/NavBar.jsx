@@ -1,15 +1,15 @@
 import './NavBar.css';
 import { useState, useEffect, useRef } from 'react'
-import { Outlet, Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenToSquare } from '@fortawesome/free-regular-svg-icons'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faBell } from '@fortawesome/free-regular-svg-icons'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
-import { faTrashCan } from '@fortawesome/free-regular-svg-icons'
+import { faGear } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons'
 import logo from '../assets/Logo.png'
-import user from '../assets/user.png'
+import user_ava from '../assets/user_ava.png'
 
 
 
@@ -90,7 +90,7 @@ function NavBar(isAdmin) {
 
         <div className="user">
           <button className="user_button">
-            <img ref={avatarRef} onClick={handleAvatarClick} src={user} alt="" className="user_image" /> 
+            <img ref={avatarRef} onClick={handleAvatarClick} src={user_ava} alt="" className="user_image" /> 
           </button>
           {isMenuVisible && (
             <div ref={menuRef} className="user_menu">
@@ -102,7 +102,7 @@ function NavBar(isAdmin) {
                   </Link>
                 </li>
                 <li className="user_menu_item">
-                  <Link to ="./profile" className="profile_link link">    
+                  <Link to ="/profile" className="profile_link link">    
                     <FontAwesomeIcon className='link_icon' icon={faUser} />
                     <span className="link_text">
                       Profile
@@ -110,15 +110,15 @@ function NavBar(isAdmin) {
                   </Link>
                 </li>
                 <li className="user_menu_item">
-                  <Link to ="./recently_deleted" className="profile_link link">    
-                    <FontAwesomeIcon className='link_icon' icon={faTrashCan} />
+                  <Link to ="/setting" className="profile_link link">    
+                    <FontAwesomeIcon className='link_icon' icon={faGear} />
                     <span className="link_text">
-                      Recently deleted
+                      Setting
                     </span>
                   </Link>
                 </li>
                 <li className="user_menu_item">
-                  <Link to ="./aboutus" className="profile_link link">    
+                  <Link to ="/aboutus" className="profile_link link">    
                     <FontAwesomeIcon className='link_icon' icon={faArrowRightFromBracket} />
                     <span className="link_text">
                       Logout
@@ -129,8 +129,9 @@ function NavBar(isAdmin) {
             </div>
           )}    
         </div>
-          
+        
       </div>
+      <Outlet/>
     </>
 
   )

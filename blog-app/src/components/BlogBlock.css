@@ -45,12 +45,15 @@
 @media (min-width: 720px) {
   .post_card {
     width: 50%;
+    /* width: calc(100%/3); */
+
   }
 }
 
 /* Tablet */
 @media (min-width: 1080px) {
   .post_card {
-    width: calc(100%/3);
+    /* width: calc(100%/3); */
+    width: 25%;
   }
 }  

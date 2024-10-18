@@ -40,7 +40,11 @@
     margin-right: 28px;
 }
 
-.topic_item.active {
+.topic_button:hover {
+    color: #000;
+}
+
+.topic_button.active {
     color: #000;
     border-bottom: 1px #000 solid;
 }
@@ -52,6 +56,7 @@
     border: none;
     background-color: transparent;
     color: rgb(107, 107, 107);
+    cursor: pointer;
 }
 
 .open_topic_menu {

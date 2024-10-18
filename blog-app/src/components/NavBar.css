@@ -74,7 +74,7 @@
 }
 
 .link_text {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .link:hover {
@@ -123,9 +123,10 @@
     width: 250px;
     top: 120%;
     right: 0;
-    padding: 16px 0;
     background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 4px, rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 4px;
+    z-index: 1;
 }
 
 .user_menu-list {
@@ -134,16 +135,17 @@
 
 .user_menu_item {
     display: flex;  
-    padding: 8px 24px;
+    align-items: center;
+    padding: 14px 24px;
+    border-bottom: 1px solid rgb(234, 231, 231);
 }
 
 .link_icon {
     margin-right: 16px;
 }
 
+
 /* Responsive */
-
-
 @media (min-width: 551px) {
     .search_bar_left {
         display: flex;
