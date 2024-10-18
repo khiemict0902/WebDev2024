@@ -41,10 +41,6 @@ function Profile(isAdmin) {
 
     return(
         <>
-            <header>
-                <NavBar />
-            </header>
-
             <div className="profile_container">
                 <div className="profile_content_left">
                     <div className="profile_header">
