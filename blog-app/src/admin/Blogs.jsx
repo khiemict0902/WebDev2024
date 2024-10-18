@@ -12,10 +12,6 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 function Blogs(){
     return(
         <div>
-            <header>
-                <NavBar data = {true}/>
-            </header>
-            
             <div className='blog_container'>
                 <div className="blog_content">
                     
@@ -25,8 +21,8 @@ function Blogs(){
                 
                     <div className="topic_container">
                         <ul className="topic_list">
-                            <li className="topic_item active">
-                                <button className="topic_button">
+                            <li className="topic_item ">
+                                <button className="topic_button active">
                                     All
                                 </button>
                             </li>
@@ -76,6 +72,12 @@ function Blogs(){
 
                     </div>
                     <div className="post_card-container">
+                        <BlogBlock />
+                        <BlogBlock />
+                        <BlogBlock />
+                        <BlogBlock />
+                        <BlogBlock />
+                        <BlogBlock />
                         <BlogBlock />
                         <BlogBlock />
                         <BlogBlock />

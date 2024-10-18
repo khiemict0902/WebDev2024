@@ -16,7 +16,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Outlet />}>
+        <Route path="/" element={<NavBar />}>
           <Route index element = {<AboutUs/>} />
           <Route path="aboutus" element={<AboutUs />} />
           <Route path="blogs" element={<Blogs />} />
@@ -26,7 +26,6 @@ export default function App() {
           <Route path="footer" element={<Footer />} />
           <Route path="login" element={<LogIn />} />
           <Route path="signup" element={<SignUp />} />
-          <Route path="navbar" element={<NavBar />} />
           <Route path="notification" element={<Notification />} />
         </Route>
       </Routes>
