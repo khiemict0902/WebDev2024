@@ -1,4 +1,4 @@
-import './Post1.css';
+import './Post3.css';
 import React from 'react'; // Import useState
 import NavBar from '../components/NavBar';
 
