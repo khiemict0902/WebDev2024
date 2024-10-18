@@ -11,6 +11,8 @@ import LogIn from "./admin/LogIn";
 import NavBar from "./components/NavBar";
 import Notification from './admin/Notification'
 import SignUp from "./intro/sign_up";
+import Profile from "./admin/Profile";
+import Setting from "./admin/Setting";
 
 export default function App() {
   return (
@@ -27,6 +29,9 @@ export default function App() {
           <Route path="login" element={<LogIn />} />
           <Route path="signup" element={<SignUp />} />
           <Route path="notification" element={<Notification />} />
+          <Route path="profile" element={<Profile />} />
+          <Route path="setting" element={<Setting />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
