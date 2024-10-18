@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import AboutUs from "./intro/AboutUs";
 import Blogs from "./admin/Blogs";
-import Categories from "./admin/Categories";
 import Write from "./admin/Write";
 import Post from "./admin/Post"
 import Post1 from "./admin/Post1"
@@ -29,7 +28,6 @@ export default function App() {
           <Route path="post1" element={<Post1 />} />
           <Route path="post2" element={<Post2 />} />
           <Route path="post3" element={<Post3 />} />
-          <Route path="categories" element={<Categories />} />
           <Route path="write" element={<Write />} />
           <Route path="footer" element={<Footer />} />
           <Route path="login" element={<LogIn />} />
