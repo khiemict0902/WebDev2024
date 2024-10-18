@@ -1,5 +1,5 @@
 import './LogIn.css'; // Import your custom CSS file for styling
-import NavBar from '../components/NavBar';
+
 const Login = () => {
     return (
         <div className="login-container">
@@ -7,12 +7,21 @@ const Login = () => {
             <div className="login-form-container">
                 <div className="login-form">
                     <h2>Login</h2>
-                    <p>Enter your detail to get in your account</p>
+                    <p>Enter your details to get into your account</p>
                     <form>
                         <input type="text" placeholder="Your name" />
                         <input type="password" placeholder="Password" />
+                        <div className="form-options">
+                            <label className="remember-me">
+                                <input type="checkbox" /> Remember
+                            </label>
+                            <a href="#" className="forgot-password">Forgot Password?</a>
+                        </div>
                         <button type="submit">Login</button>
                     </form>
+                    <div className="sign-up">
+                        <p>Don't have an account? <a href="#" className="create-account">Create one</a></p>
+                    </div>
                 </div>
             </div>
         </div>

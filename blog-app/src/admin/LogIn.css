@@ -14,14 +14,14 @@
     height: 100%;
     z-index: 1;
     pointer-events: none;
-    background-image: url('../assets/pic_1.jpg');
+    background-image: url('../assets/login.jpg');
     background-size: cover;
 }
 
 .login-form-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     z-index: 5;
 }
 
@@ -62,4 +62,41 @@
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+}
+
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+.remember-me input {
+    margin-right: 5px;
+}
+.forgot-password {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.sign-up {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.create-account {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.create-account:hover {
+    text-decoration: underline;
 }
