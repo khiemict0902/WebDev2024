@@ -14,7 +14,7 @@ import user_ava from '../assets/user_ava.png'
 
 
 
-function NavBar(isAdmin) {
+function NavBar(isLogin) {
 
   const [isMenuVisible, setIsMenuVisible] = useState(false);
   const menuRef = useRef(null); 
@@ -47,13 +47,13 @@ function NavBar(isAdmin) {
   }, []);
 
   return (
-    <>
+    <>   
       <div className='header'>
 
         <div className="logo_and_search">
 
           <div className="logo_and_search-container">
-            <Link to='/blogs' className="logo_image">
+            <Link to='/aboutus' className="logo_image">
               <img src={logo} alt="" />
             </Link>
 
@@ -71,16 +71,19 @@ function NavBar(isAdmin) {
           </Link>
         </div>
 
-        {isAdmin &&
-          <>
-            <div className="create_post">
-              <Link className='link' to = '/write'>
-                <FontAwesomeIcon className='create_icon' icon={faPenToSquare} />
-                <span className="link_text">Write</span>
-              </Link>
-            </div>
-          </>
-        }
+        <div className="div home_page">
+          <Link className="link" to='/blogs'>
+              <span>Blogs</span>
+          </Link>
+        </div>
+         
+        <div className="create_post">
+          <Link className='link' to = '/write'>
+            <FontAwesomeIcon className='create_icon' icon={faPenToSquare} />
+            <span className="link_text">Write</span>
+          </Link>
+        </div>
+        
 
         <div className="notification">
           <Link className='link' to='/notification'>
@@ -129,10 +132,10 @@ function NavBar(isAdmin) {
             </div>
           )}    
         </div>
-        
       </div>
       <Outlet/>
     </>
+    
 
   )
 }
