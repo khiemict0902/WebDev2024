@@ -11,9 +11,9 @@ function AboutUs() {
             <div className="box">
                 <section className="home" id="home">
                     <div className="home_text">
-                        <h1>Đăng nội dung theo cách của bạn</h1>
-                        <p>Dễ dàng tạo blog độc đáo và tuyệt đẹp.</p>
-                        <a href="#" className="btn">Tạo Blog Của Bạn</a>
+                        <h1>Ready to blog your heart out? Start here</h1>
+                        <p>Your blog, your way</p>
+                        <a href="#" className="btn">Get Started </a>
                     </div>
 
                     <div className="home_img">

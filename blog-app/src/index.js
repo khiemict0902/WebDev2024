@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import AboutUs from "./intro/AboutUs";
 import Blogs from "./admin/Blogs";
 import Write from "./admin/Write";
-import Post from "./admin/Post"
 import Post1 from "./admin/Post1"
 import Post2 from "./admin/Post2";
 import Post3 from "./admin/Post3"
@@ -24,7 +23,6 @@ export default function App() {
           <Route index element = {<AboutUs/>} />
           <Route path="aboutus" element={<AboutUs />} />
           <Route path="blogs" element={<Blogs />} />
-          <Route path="post" element={<Post />} />
           <Route path="post1" element={<Post1 />} />
           <Route path="post2" element={<Post2 />} />
           <Route path="post3" element={<Post3 />} />

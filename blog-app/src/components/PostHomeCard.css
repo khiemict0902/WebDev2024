@@ -8,28 +8,14 @@
 }
 
 .post_link {
-    text-decoration: none;
-}
-
-.author_infor {
     display: flex;
-    align-items: center;
-    margin-bottom: 16px;
-}
-
-.author_image {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin-right: 8px;
-}
-
-.author_name {
-    color: #000;
-    font-size: 13px;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 16px 0; 
 }
 
 .published_post_title {
+    width: 50%;
     margin-bottom: 8px;
     color: #000;
     font-size: 20px;
@@ -42,67 +28,34 @@
     margin-bottom: 12px;
 }
 
-
-.published_post-footer {
-    display: flex;
-    align-items: center;
+.post_home_card-image_container {
+    width: 40%;
+    margin-right: 16px;
 }
 
-.publish_post-footer_item-left {
-    flex-grow: 1;
-    display: flex;
-    gap: 16px;
-    color: #6b6b6b;
+.post_home_card-image {
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
 }
 
-.published_post_time {
-
+@media (min-width: 480px){
+    .post_home_card-image {
+        height: 90px;   
+    }
 }
 
-.published_post-interact {
-    display: flex;
-    gap: 4px;
+@media (min-width: 721px) {
+    .post_home_card-image_container {
+        width: 40%;
+    }
+
+    .post_home_card-image {
+        height: 150px;
+    }
+    .published_post_title {
+        font-size: 26px;
+    }
+
+    
 }
-
-.published_post_like- {
-
-}
-
-.published_post_comment {
-
-}
-
-
-.published_post-footer_menu {
-    position: relative;
-    padding: 8px;
-    background: transparent;
-    outline: none;
-    border: none;
-}
-
-.published_post-footer_menu-icon {
-    font-size: 20px;
-}
-
-.published_post-footer_menu-container {
-    width: 120px;
-    position: absolute;
-    top: 100%;
-    right: 0;
-}
-
-.published_post-footer_menu-list {
-    list-style: none;
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 4px, rgba(0, 0, 0, 0.15) 0px 2px 8px;
-    z-index: 1;
-}
-
-.published_post-footer_menu-item {
-    padding: 14px 24px;
-    border-bottom: 1px solid rgb(234, 231, 231);
-}
-
-

@@ -5,6 +5,7 @@
 }
 
 .profile_container {
+    position: relative;
     display: flex;
     justify-content: center;
 }
@@ -51,6 +52,7 @@
     background: transparent;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .profile_menu-icon {

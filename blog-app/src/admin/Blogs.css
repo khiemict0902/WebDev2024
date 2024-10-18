@@ -33,7 +33,11 @@
     display: flex;
     list-style: none;
     flex-grow: 1;
-    overflow: hidden;
+    overflow-y: auto;
+}
+
+.topic_list::-webkit-scrollbar {
+  display: none;
 }
 
 .topic_item {
@@ -61,6 +65,7 @@
 
 .open_topic_menu {
     color: rgb(107, 107, 107);
+    margin-left: 16px;
 }
 
 .post_card-container {
