@@ -6,7 +6,7 @@ import Aboutus from '../assets/aboutus.png'
 function AboutUs() {
     return (
         <div>
-            {/* <header>
+            <header>
                 <a href="#" className="logo">
                     <img src="" alt="logo" />
                 </a>
@@ -24,7 +24,7 @@ function AboutUs() {
                         <a href="#home">Home</a>
                     </li>
                 </ul>
-            </header> */}
+            </header>
 
             <div className="box">
                 <section className="home" id="home">
