@@ -6,8 +6,9 @@ import Blogs from "./admin/Blogs";
 import Categories from "./admin/Categories";
 import Write from "./admin/Write";
 import Post from "./admin/Post"
+import Post1 from "./admin/Post1"
 import Footer from "./components/Footer";
-import LogIn from "./admin/LogIn";
+import LogIn from "./intro/login";
 import NavBar from "./components/NavBar";
 import Notification from './admin/Notification'
 import SignUp from "./intro/sign_up";
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="aboutus" element={<AboutUs />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="post" element={<Post />} />
+          <Route path="post1" element={<Post1 />} />
           <Route path="categories" element={<Categories />} />
           <Route path="write" element={<Write />} />
           <Route path="footer" element={<Footer />} />
