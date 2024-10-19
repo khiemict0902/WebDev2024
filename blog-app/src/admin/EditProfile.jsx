@@ -66,7 +66,7 @@ function EditProfile() {
                 </div>
             </div>
             
-            <div className="form_group">
+            <div className="profile_form_group">
               <label>User Name</label>
               <input
                 type="text"
@@ -77,7 +77,7 @@ function EditProfile() {
               />
             </div>
 
-            <div className="form_group">
+            <div className="profile_form_group">
               <label>Date of Birth</label>
               <input
                 type="date"
@@ -87,7 +87,7 @@ function EditProfile() {
               />
             </div>
 
-            <div className="form_group">
+            <div className="profile_form_group">
               <label>Short Bio</label>
               <input
                 type="text"
@@ -98,9 +98,10 @@ function EditProfile() {
               />
             </div>
 
-            <div className="form_group">
+            <div className="profile_form_group">
               <label>Introduce Yourself</label>
               <textarea
+                className='profile_form-textarea'
                 name="introduction"
                 value={profile.introduction}
                 onChange={handleChange}

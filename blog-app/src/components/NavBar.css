@@ -84,7 +84,7 @@
 
 .create_post {
     display: none;
-    margin: 0 32px;
+    margin-left:32px; 
 }
 
 .create_icon {
@@ -92,7 +92,7 @@
 }
 
 .notification {
-    margin-right: 32px;
+    margin: 0 32px;
     font-size: 20px;   
     line-height: 0;
 }   

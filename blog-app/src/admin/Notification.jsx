@@ -25,7 +25,7 @@ function Notification(){
                                     <Link className="notification_item-link">
                                         <div className="notification_item-content">
                                             <div className='notification_text'>
-                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'> Hello World</span>
+                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'>Healthcare Technology</span>
                                             </div>
 
                                             <span className="notification_time">25 minutes ago</span>
@@ -37,7 +37,7 @@ function Notification(){
                                     <Link className="notification_item-link">
                                         <div className="notification_item-content">
                                             <div className='notification_text'>
-                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'> Hello World</span>
+                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'>Healthcare Technology</span>
                                             </div>
 
                                             <span className="notification_time">25 minutes ago</span>
@@ -48,7 +48,7 @@ function Notification(){
                                     <Link className="notification_item-link">
                                         <div className="notification_item-content">
                                             <div className='notification_text'>
-                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'> Hello World</span>
+                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'>Healthcare Technology</span>
                                             </div>
 
                                             <span className="notification_time">25 minutes ago</span>
@@ -64,7 +64,7 @@ function Notification(){
                                     <Link className="notification_item-link">
                                         <div className="notification_item-content">
                                             <div className='notification_text'>
-                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'> Hello World</span>
+                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'>Healthcare Technology</span>
                                             </div>
                                             <span className="notification_time">25 minutes ago</span>
                                         </div>
@@ -75,7 +75,7 @@ function Notification(){
                                     <Link className="notification_item-link">
                                         <div className="notification_item-content">
                                             <div className='notification_text'>
-                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'> Hello World</span>
+                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'>Chicken and Spinach Manicotti</span>
                                             </div>
                                             <span className="notification_time">25 minutes ago</span>
                                         </div>
@@ -86,7 +86,7 @@ function Notification(){
                                     <Link className="notification_item-link">
                                         <div className="notification_item-content">
                                             <div className='notification_text'>
-                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'> Hello World</span>
+                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'>Chicken and Spinach Manicotti</span>
                                             </div>
                                             <span className="notification_time">25 minutes ago</span>
                                         </div>
@@ -97,7 +97,7 @@ function Notification(){
                                     <Link className="notification_item-link">
                                         <div className="notification_item-content">
                                             <div className='notification_text'>
-                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'> Hello World</span>
+                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'>Chicken and Spinach Manicotti</span>
                                             </div>
                                             <span className="notification_time">25 minutes ago</span>
                                         </div>
@@ -108,7 +108,7 @@ function Notification(){
                                     <Link className="notification_item-link">
                                         <div className="notification_item-content">
                                             <div className='notification_text'>
-                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'> Hello World</span>
+                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'>Chicken and Spinach Manicotti</span>
                                             </div>
                                             <span className="notification_time">25 minutes ago</span>
                                         </div>
@@ -119,7 +119,7 @@ function Notification(){
                                     <Link className="notification_item-link">
                                         <div className="notification_item-content">
                                             <div className='notification_text'>
-                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'> Hello World</span>
+                                                <span className='black_text'>HHanhhhhh </span> responded to <span className='black_text'>Chicken and Spinach Manicotti</span>
                                             </div>
                                             <span className="notification_time">25 minutes ago</span>
                                         </div>

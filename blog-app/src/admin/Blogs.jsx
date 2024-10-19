@@ -1,6 +1,6 @@
 import './Blogs.css';
-import BlogBlock from '../components/BlogBlock';
-import NavBar from '../components/NavBar';
+import BlogCard1 from '../components/BlogCard1';
+import BlogCard2 from '../components/BlogCard2';
 import Pagination from '../components/Pagination'
 import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -24,6 +24,66 @@ function Blogs(){
                             <li className="topic_item ">
                                 <button className="topic_button active">
                                     All
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Health
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Food
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Topic
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Topic
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Topic
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Topic
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Topic
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Topic
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Topic
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Topic
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Topic
+                                </button>
+                            </li>
+                            <li className="topic_item">
+                                <button className="topic_button">
+                                    Topic
                                 </button>
                             </li>
                             <li className="topic_item">
@@ -72,18 +132,18 @@ function Blogs(){
 
                     </div>
                     <div className="post_card-container">
-                        <BlogBlock />
-                        <BlogBlock />
-                        <BlogBlock />
-                        <BlogBlock />
-                        <BlogBlock />
-                        <BlogBlock />
-                        <BlogBlock />
-                        <BlogBlock />
-                        <BlogBlock />
-                        <BlogBlock />
-                        <BlogBlock />
-                        <BlogBlock />
+                        <BlogCard1 />
+                        <BlogCard1 />
+                        <BlogCard1 />
+                        <BlogCard1 />
+                        <BlogCard1 />
+                        <BlogCard1 />
+                        <BlogCard2 />
+                        <BlogCard2 />
+                        <BlogCard2 />
+                        <BlogCard2 />
+                        <BlogCard2 />
+                        <BlogCard2 />
                     </div>
                     
                     <Pagination />
