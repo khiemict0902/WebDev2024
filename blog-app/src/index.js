@@ -27,16 +27,20 @@ export default function App() {
           <Route path="post2" element={<Post2 />} />
           <Route path="post3" element={<Post3 />} />
           <Route path="write" element={<Write />} />
-          <Route path="footer" element={<Footer />} />
           <Route path="login" element={<LogIn />} />
           <Route path="signup" element={<SignUp />} />
           <Route path="notification" element={<Notification />} />
           <Route path="profile" element={<Profile />} />
           <Route path="setting" element={<Setting />} />
+          
 
         </Route>
+        
       </Routes>
+    <Footer/>
+      
     </BrowserRouter>
+
   );
 }
 
