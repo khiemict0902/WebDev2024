@@ -8,10 +8,8 @@ import Post1 from "./admin/Post1"
 import Post2 from "./admin/Post2";
 import Post3 from "./admin/Post3"
 import Footer from "./components/Footer";
-import LogIn from "./intro/login";
 import NavBar from "./components/NavBar";
 import Notification from './admin/Notification'
-import SignUp from "./intro/sign_up";
 import Profile from "./admin/Profile";
 import Setting from "./admin/Setting";
 
@@ -27,8 +25,6 @@ export default function App() {
           <Route path="post2" element={<Post2 />} />
           <Route path="post3" element={<Post3 />} />
           <Route path="write" element={<Write />} />
-          <Route path="login" element={<LogIn />} />
-          <Route path="signup" element={<SignUp />} />
           <Route path="notification" element={<Notification />} />
           <Route path="profile" element={<Profile />} />
           <Route path="setting" element={<Setting />} />
