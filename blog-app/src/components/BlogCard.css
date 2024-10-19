@@ -16,6 +16,7 @@
 
 .post_image_container {
   width: 100%;
+  overflow: hidden;
 }
 
 .post_card_image {
@@ -23,7 +24,12 @@
   height: 200px;
   border: none;
   object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
 
+.post_card_image:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
 }
 
 .post_cart_text {

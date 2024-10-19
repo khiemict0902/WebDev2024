@@ -33,7 +33,7 @@
     display: flex;
     list-style: none;
     flex-grow: 1;
-    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .topic_list::-webkit-scrollbar {
