@@ -5,7 +5,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { faComment } from '@fortawesome/free-solid-svg-icons'
 import { faEllipsis } from '@fortawesome/free-solid-svg-icons'
 
-export default function PostMenu() {
+export default function PostInteract() {
     const [isMenuVisible, setIsMenuVisible] = useState(false);
     const menuRef = useRef(null); 
     const iconRef = useRef(null); 
