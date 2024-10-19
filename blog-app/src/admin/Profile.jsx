@@ -4,11 +4,9 @@ import { Link } from "react-router-dom";
 import user_ava from '../assets/user_ava.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEllipsis } from '@fortawesome/free-solid-svg-icons'
-import PostHomeCard1 from '../components/PostHomecard1';
-import PostHomeCard2 from '../components/PostHomeCard2';
-import EditProfile from './EditProfile';
+import PostHomeCard from '../components/PostHomecard';
 
-function Profile(isAdmin) {
+function Profile() {
     const [isMenuVisible, setIsMenuVisible] = useState(false);
     const menuRef = useRef(null); 
     const iconRef = useRef(null); 
@@ -73,12 +71,12 @@ function Profile(isAdmin) {
                             </div>
                         </div>
                         <div className="published_post-list_container">
-                            <PostHomeCard1/>
-                            <PostHomeCard1/>
-                            <PostHomeCard1/>
-                            <PostHomeCard2/>
-                            <PostHomeCard2/>
-                            <PostHomeCard2/>
+                            <PostHomeCard title='Healthcare Technology'  post='/post1' img='https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/creative-assets/ibs/ul/sus/66/0e/ibm_sustainability_healthcare_07d.component.crop-2by1-xl.ts=1728679259039.jpg/content/adobe-cms/us/en/topics/healthcare-technology/jcr:content/root/leadspace_container/leadspace_article'/>
+                            <PostHomeCard title='Healthcare Technology'  post='/post1' img='https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/creative-assets/ibs/ul/sus/66/0e/ibm_sustainability_healthcare_07d.component.crop-2by1-xl.ts=1728679259039.jpg/content/adobe-cms/us/en/topics/healthcare-technology/jcr:content/root/leadspace_container/leadspace_article'/>
+                            <PostHomeCard title='Healthcare Technology'  post='/post1' img='https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/creative-assets/ibs/ul/sus/66/0e/ibm_sustainability_healthcare_07d.component.crop-2by1-xl.ts=1728679259039.jpg/content/adobe-cms/us/en/topics/healthcare-technology/jcr:content/root/leadspace_container/leadspace_article'/>
+                            <PostHomeCard title='Chicken and Spinach Manicotti'  post='/post2' img='https://www.favfamilyrecipes.com/wp-content/uploads/2024/09/Chicken-and-Spinach-Manicotti-fork-cut.jpg'/>
+                            <PostHomeCard title='Chicken and Spinach Manicotti'  post='/post2' img='https://www.favfamilyrecipes.com/wp-content/uploads/2024/09/Chicken-and-Spinach-Manicotti-fork-cut.jpg'/>
+                            <PostHomeCard title='Chicken and Spinach Manicotti'  post='/post2' img='https://www.favfamilyrecipes.com/wp-content/uploads/2024/09/Chicken-and-Spinach-Manicotti-fork-cut.jpg'/>
                         </div>
                     </div>
                 </div>
