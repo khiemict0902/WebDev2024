@@ -10,7 +10,7 @@ import user_ava from '../assets/user_ava.png'
 
 
 
-function NavBar(isLogin) {
+function NavBar() {
   return (
     <>   
       <div className='header'>
